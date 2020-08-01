@@ -1,8 +1,48 @@
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
 }
 
-#title {
+.title {
   text-align: center;
-  color: blue;
+  color: #1da1f2;
+}
+
+nav {
+  background-color: #1da1f2;
+  width: 100%;
+}
+.nav-title {
+  display: inline-block;
+  color: white;
+  font-weight: bold;
+}
+
+.nav-menu {
+  display: inline-block;
+  list-style: none;
+}
+
+.nav-item {
+  display: inline-block;
+  padding: 10px;
+}
+
+.home-link,
+.nav-link {
+  text-decoration: none;
+  color: white;
+}
+
+.home-link:hover,
+.nav-link:hover {
+  color: lightblue;
+}
+
+.active {
+  font-weight: bold;
+}
+
+.right {
+  float: right;
 }
